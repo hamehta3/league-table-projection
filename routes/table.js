@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res) {
-  res.send(table);
+  res.send(table.sort(tieBreaker));
 });
 
 router.get('/project', function(req, res) {
@@ -11,6 +11,10 @@ router.get('/project', function(req, res) {
   res.send(output);
 });
 
+// TODO add support to read data for different leagues
+// TODO add error handling, better input validation
+
+// TODO move this to a unit test to use as mock data
 var table = [
   {
     team: 'B',
@@ -106,6 +110,7 @@ var init = function() {
   });
 };
 
+// Main routine
 var project = function(index) {
   if (index >= fixtures.length) {
     return;
