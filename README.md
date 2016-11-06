@@ -12,6 +12,7 @@ Install dependencies and build the project using `npm install` followed by `bowe
 Run `gulp` for preview. Point to localhost:3000.
 
 /table: Get the current league table
+
 /table/project: Generate the table projections
 
 ## Testing
