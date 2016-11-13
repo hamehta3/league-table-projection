@@ -12,9 +12,13 @@ Install dependencies and build the project using `npm install` followed by `bowe
 Run `gulp` for preview. Point to localhost:3000.
 
 GET /table: Get the current league table
+
 POST /table: Set league table
+
 GET /fixtures: Get the current fixture list
+
 POST /fixtures: Set fixture list
+
 GET /table/project: Generate team projections for the table after the set of fixtures have been played
 
 ## Testing
