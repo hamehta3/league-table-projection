@@ -20,4 +20,4 @@ Run `gulp` for preview. Point to localhost:3000.
 
 ## Testing
 
-Coming soon
+Run tests using `npm test` or `mocha`.
