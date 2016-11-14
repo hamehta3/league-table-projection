@@ -62,7 +62,6 @@ router.get('/table/project', function(req, res) {
 });
 
 // TODO add support to read data for different leagues
-// TODO add error handling, better input validation
 
 // TODO move this to a unit test to use as mock data
 var table = [
