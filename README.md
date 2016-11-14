@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hamehta3/league-table-projection.svg?branch=master)](https://travis-ci.org/hamehta3/league-table-projection)
+
 # league-table-projection
 How much can the league table change this week?
 
