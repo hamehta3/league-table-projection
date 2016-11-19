@@ -13,9 +13,17 @@ class TableController {
     ];
   }
   
+  /*
+  * Tie break criteria:
+  * 1. Points
+  * 2. Name
+  *
+  * TODO: Add more realistic criteria like GD / Head-to-Head, GF, GA, etc.
+  * This is also league specific
+  */
   tieBreaker(a, b) {
     if (a.points === b.points) {
-      return a.team - b.team;  // alphabetical order (asc)
+      return a.team.localeCompare(b.team);  // alphabetical order (asc)
     }
     return b.points - a.points;  // points order (desc)
   }
