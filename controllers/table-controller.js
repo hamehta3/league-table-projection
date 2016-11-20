@@ -15,8 +15,7 @@ class TableController {
   
   /*
   * Tie break criteria:
-  * 1. Points
-  * 2. Name
+  * 1. Name
   *
   * TODO: Add more realistic criteria like GD / Head-to-Head, GF, GA, etc.
   * This is also league specific
